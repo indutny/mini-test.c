@@ -4,8 +4,12 @@
 #include "mini/common.h"
 
 #ifndef TEST_ENUM
-# error Please define TEST_ENUM before including `mini-test.h`
-# define TEST_ENUM(V)
+# ifdef TEST_LIST
+#  define TEST_ENUM TEST_LIST
+# else  /* !TEST_LIST */
+#  error Please define TEST_LIST before including `mini-test.h`
+#  define TEST_ENUM(V)
+# endif  /* TEST_LIST */
 #endif  /* !TEST_ENUM */
 
 #define TEST_DECL(N) void test__##N();

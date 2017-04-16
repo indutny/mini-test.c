@@ -1,4 +1,4 @@
-#define TEST_ENUM(V) \
+#define TEST_LIST(V) \
     V(first) \
     V(second)
 
