@@ -2,7 +2,7 @@
 
 **Does not work on Windows yet See [#1][1]**
 
-Minimalistic test suite for C projects.
+Minimalistic portable test runner for C projects.
 
 ## Usage
 
