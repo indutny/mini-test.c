@@ -48,7 +48,7 @@ like this:
 
     "variables": {
       "gypkg_deps": [
-        "git://github.com/indutny/mini-test.c.git@^v1.0.0 => mini-test.gyp:mini-test",
+        "git://github.com/indutny/mini-test.c.git@^v1.1.0 => mini-test.gyp:mini-test",
       ],
     },
 
