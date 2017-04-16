@@ -6,7 +6,8 @@ Minimalistic portable test runner for C projects.
 
 ## Usage
 
-Tutorial:
+### Tutorial
+
 [![asciicast](https://asciinema.org/a/0uwkwwcdjxqsbc5it8jk888cj.png)](https://asciinema.org/a/0uwkwwcdjxqsbc5it8jk888cj)
 
 ### Minimal configuration
