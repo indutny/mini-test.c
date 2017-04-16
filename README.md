@@ -1,6 +1,6 @@
 # mini-test.c
 
-**Does not work on Windows yet See [#1][0]**
+**Does not work on Windows yet See [#1][1]**
 
 Minimalistic test suite for C projects.
 
