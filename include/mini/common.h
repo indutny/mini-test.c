@@ -9,7 +9,7 @@
 #define CHECK(VALUE, MESSAGE)                                                \
     do {                                                                     \
       if ((VALUE)) break;                                                    \
-      fprintf(stderr, "%s[%d] Assertion failure: " #MESSAGE "\n",         \
+      fprintf(stderr, "%s[%d] Assertion failure: " #MESSAGE "\n",            \
               __FILE__, __LINE__);                                           \
       abort();                                                               \
     } while (0)
