@@ -1,7 +1,5 @@
 # mini-test.c
 
-**Does not work on Windows yet. See [#1][1]**
-
 Minimalistic portable test runner for C projects.
 
 ## Usage
